@@ -79,10 +79,6 @@ h1 {
 
 /* browse-homes */
 
-.home {
-  cursor: pointer;
-}
-
 .home h3 {
   font-size: 25px;
 }

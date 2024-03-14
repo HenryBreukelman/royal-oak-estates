@@ -159,6 +159,8 @@ a {
   position: relative;
   overflow: hidden;
   border-radius: var(--big-border-radius);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
   p {
     z-index: 3;
     font-size: 18px;
@@ -176,6 +178,10 @@ a {
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.293);
+}
+
+.home:hover {
+  transform: scale(1.015);
 }
 
 /* dialog section */
